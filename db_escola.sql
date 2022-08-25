@@ -4,7 +4,6 @@ USE db_escola;
 
 /*criando tabela e atributos*/
 CREATE TABLE tb_estudantes (
-
   ID bigint auto_increment primary key,
   nome varchar (40),
   data_nascimento date,
